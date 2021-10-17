@@ -16,7 +16,10 @@ return `<!DOCTYPE HTML>
     </nav>
     <div class="card" style="width: 18rem;">
   <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
+  <div class="container">
+  <div class="row">
+    <div class="col-sm">
+    <div class="card-body">
     <h5 class="luis-manager">Luis Manager</h5>
     <p class="card-text"></p>
   </div>
@@ -25,7 +28,9 @@ return `<!DOCTYPE HTML>
     <li class="list-group-item">Email: luis@gmail.com</li>
     <li class="list-group-item">Office Number: 512-999-9999</li>
   </ul>
-  <div class="card-body">
+    </div>
+    <div class="col-sm">
+    <div class="card-body">
     <a href="#" class="card-link">Card link</a>
     <a href="#" class="card-link">Another link</a>
   </div>
@@ -41,7 +46,9 @@ return `<!DOCTYPE HTML>
     <li class="list-group-item">Email: alex@gmail.com</li>
     <li class="list-group-item">GitHub: alexl</li>
   </ul>
-  <div class="card-body">
+    </div>
+    <div class="col-sm">
+    <div class="card-body">
     <a href="#" class="card-link">Card link</a>
     <a href="#" class="card-link">Another link</a>
   </div>
@@ -57,7 +64,12 @@ return `<!DOCTYPE HTML>
     <li class="list-group-item">Email: cindy@gmail.com</li>
     <li class="list-group-item">GitHub: cindyp</li>
   </ul>
-  <div class="card-body">
+    </div>
+  </div>
+  <div class="container">
+  <div class="row">
+    <div class="col-sm">
+    <div class="card-body">
     <a href="#" class="card-link">Card link</a>
     <a href="#" class="card-link">Another link</a>
   </div>
@@ -73,7 +85,9 @@ return `<!DOCTYPE HTML>
     <li class="list-group-item">Email: tommy@gmail.com</li>
     <li class="list-group-item">GitHub: tommyc</li>
   </ul>
-  <div class="card-body">
+    </div>
+    <div class="col-sm">
+    <div class="card-body">
     <a href="#" class="card-link">Card link</a>
     <a href="#" class="card-link">Another link</a>
   </div>
@@ -93,8 +107,10 @@ return `<!DOCTYPE HTML>
     <a href="#" class="card-link">Card link</a>
     <a href="#" class="card-link">Another link</a>
   </div>
+  </div>
 </div>
-</body>
+    </div>
+    </body>
 </html>`
 
 }

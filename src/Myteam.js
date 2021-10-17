@@ -17,6 +17,70 @@ return `<!DOCTYPE HTML>
     <div class="card" style="width: 18rem;">
   <img src="..." class="card-img-top" alt="...">
   <div class="card-body">
+    <h5 class="luis-manager">Luis Manager</h5>
+    <p class="card-text"></p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">ID: 1</li>
+    <li class="list-group-item">Email: luis@gmail.com</li>
+    <li class="list-group-item">Office Number: 512-999-9999</li>
+  </ul>
+  <div class="card-body">
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="alex-engineer">Alex Engineer</h5>
+    <p class="card-text"></p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">ID: 2</li>
+    <li class="list-group-item">Email: alex@gmail.com</li>
+    <li class="list-group-item">GitHub: alexl</li>
+  </ul>
+  <div class="card-body">
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="cindy-engineer">Cindy Engineer</h5>
+    <p class="card-text"></p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">ID: 3</li>
+    <li class="list-group-item">Email: cindy@gmail.com</li>
+    <li class="list-group-item">GitHub: cindyp</li>
+  </ul>
+  <div class="card-body">
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="tommy-engineer">Tommy Engineer</h5>
+    <p class="card-text"></p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">ID: 4</li>
+    <li class="list-group-item">Email: tommyc</li>
+    <li class="list-group-item">A third item</li>
+  </ul>
+  <div class="card-body">
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
@@ -30,7 +94,6 @@ return `<!DOCTYPE HTML>
     <a href="#" class="card-link">Another link</a>
   </div>
 </div>
-
 </body>
 </html>`
 

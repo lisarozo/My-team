@@ -114,6 +114,6 @@ function writeToFile(fileName, data) {
           if (err) throw err;
         });
   }
-  writeToFile('myTeam.html', generateHTML() )
+  writeToFile('index.html', generateHTML() )
 
 startApp()
